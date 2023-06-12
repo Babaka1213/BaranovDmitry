@@ -1,0 +1,6 @@
+first = input("Введите список слов через запятую: ").split(",")
+first_set = set(first)
+print("Количество слов:", len(first))
+second = input("Введите второй список с тем же количеством слов через запятую: ").split(",")
+dictionary = dict(zip(first, second))
+print(dictionary)
